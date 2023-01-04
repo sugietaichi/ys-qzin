@@ -1,0 +1,8 @@
+{
+  "extends": ["plugin:import/recommended", "prettier"],
+  "plugins": ["import", "unused-imports"],
+  "rules": {
+    "import/order": "error",
+    "unused-imports/no-unused-imports": "error"
+  }
+}

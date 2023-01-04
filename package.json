@@ -1,0 +1,42 @@
+{
+  "name": "qzin.online",
+  "version": "5.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint --dir src",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  },
+  "dependencies": {
+    "@date-io/date-fns": "^2.16.0",
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/lab": "^5.0.0-alpha.114",
+    "@mui/material": "latest",
+    "@mui/x-date-pickers": "^5.0.12",
+    "@next/font": "latest",
+    "axios": "^1.2.1",
+    "date-fns": "^2.29.3",
+    "dayjs": "^1.11.7",
+    "firebase": "^9.13.0",
+    "firebase-admin": "^11.3.0",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "recoil": "^0.7.6"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "typescript": "latest"
+  }
+}
